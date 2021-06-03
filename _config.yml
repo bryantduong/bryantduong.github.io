@@ -15,12 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Bryant Duong."
 email: 'bryanttduong@gmail.com'
-description: "I'm a software engineer and MBA student from California."
+description: "I'm a software engineer at Optum and MBA student from California."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bryantduong.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'DuongBryant'
 github_username: 'bryantduong'
 medium_username: ''
+section_title: 'Latest Work & Interests'
+section_subtitle: 'I have varying interests and experience. Have a look at what I'm working on right now.'
 
 # Build settings
 markdown: kramdown
@@ -95,7 +97,7 @@ pagination:
 footer_text: '© 2021 Bryant Duong'
 admin_name: 'Bryant Duong'
 google_analytics:
-enable_contact: false
+enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true

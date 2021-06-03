@@ -2,7 +2,7 @@
 layout: inner
 position: left
 title: 'Weathercast'
-date: 2016-02-20 15:56:00
+date: 2021-06-02 23:00:00
 categories: development
 tags: JavaScript AngularJS API Sass
 featured_image: '/img/posts/02_weathercast-1130x864-2x.png'
