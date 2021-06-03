@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ## About Me
 
-<img align="right" src="img/posts/pfp.png" width="25%" height="25%">
+<img align="right" src="https://github.com/bryantduong/bryantduong.github.io/blob/master/img/posts/pfp.png" width="25%" height="25%">
 
 Hi there! Welcome to my portfolio!  My name is Bryant.  Here's some facts about me:
 * I previously worked at the US Department of Defense for 2.5 years as a full-time employee during undergraduate study at UC Berkeley.

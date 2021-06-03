@@ -19,7 +19,7 @@ description: "I'm a software engineer at Optum and MBA student from California."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bryantduong.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'DuongBryant'
-github_username: 'bryantduong'
+github_username: ''
 medium_username: ''
 linkedin_username: 'bryantduong'
 section_title: "Latest Work & Interests"
