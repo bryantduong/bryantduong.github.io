@@ -21,8 +21,10 @@ url: "https://bryantduong.github.io/" # the base hostname & protocol for your si
 twitter_username: 'DuongBryant'
 github_username: 'bryantduong'
 medium_username: ''
+linkedin_username: 'bryantduong'
 section_title: "Latest Work & Interests"
-section_subtitle: "I have varying interests and experience. Have a look at what I'm working on right now."
+section_subtitle: "I have varying interests and experience. Have a look at what I'm involved with right now!"
+blog_url: true
 
 # Build settings
 markdown: kramdown
