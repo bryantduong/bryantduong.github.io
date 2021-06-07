@@ -11,6 +11,7 @@ Hi there! Welcome to my portfolio!  My name is Bryant.  Here's some facts about 
 * Currently, I am working at United HealthGroup as a Software Engineer.
 * On the side, I am working towards an [MBA](https://gsm.ucdavis.edu/online-mba) at UC Davis, expecting to graduate in Spring 2022.
  * I am trying to TA for our Statistics or Python classes for Business Students in the upcoming quarters as of June 2021.
+* My current technical interests include: neural networks/machine learning, cybersecurity, and social computing.
 
 When I'm not programming, you can find me discussing world events or reading new novels. My Linkedin and blog can be found on the [homepage](/index.html) of this site.
 
