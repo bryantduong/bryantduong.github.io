@@ -1,17 +1,11 @@
-## Phantom for Jekyll
+## bryantduong.github.io
 
-A minimalist, responsive portfolio theme for [Jekyll](http://jekyllrb.com/) with Bootstrap.
+This portfolio uses the [Phantom](https://github.com/jamigibbs/phantom) Jekyll template by Jami Gibbs.
 
-![preview](preview.jpg)
 
-[See it in action](http://jamigibbs.github.io/phantom/).
+## How to Fork your Own Template
 
-## Fancy using it for your own site?
-
-Here are some steps to get you started:
-
-1. Clone this repo and cd into the directory:
-
+1.
   ```bash
   git clone https://github.com/jamigibbs/phantom.git your-dir-name && cd your-dir-name
   ```
