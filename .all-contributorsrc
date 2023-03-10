@@ -40,6 +40,7 @@
       "contributions": [
         "code"
       ]
+<<<<<<< HEAD
     },
     {
       "login": "george-gca",
@@ -52,4 +53,8 @@
     }
   ],
   "commitConvention": "angular"
+=======
+    }
+  ]
+>>>>>>> 7efb29bd (Initial commit)
 }

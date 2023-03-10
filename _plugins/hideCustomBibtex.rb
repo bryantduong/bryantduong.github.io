@@ -4,7 +4,11 @@
 	  keywords = @context.registers[:site].config['filtered_bibtex_keywords']
 
 	  keywords.each do |keyword|
+<<<<<<< HEAD
 		input = input.gsub(/^.*\b#{keyword}\b *= *\{.*$\n/, '')
+=======
+		input = input.gsub(/^.*#{keyword}.*$\n/, '')
+>>>>>>> 7efb29bd (Initial commit)
 	  end
 
       return input
