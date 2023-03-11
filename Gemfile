@@ -26,7 +26,7 @@ group :jekyll_plugins do
 >>>>>>> 7efb29bd (Initial commit)
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-#    gem 'mini_racer'
+    gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
 end
