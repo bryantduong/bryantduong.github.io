@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Amundsen at Optum
+description: Integrating Lyft's Amundsen as a data dictionary for internal Optum Oracle Databases
+img: assets/img/amundsen_mark_orange.svg
 importance: 2
 category: work
 ---
