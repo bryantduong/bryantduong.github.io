@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Projects that I have worked on previously.
 nav: true
 nav_order: 2
 display_categories: [Academia, Optum]
