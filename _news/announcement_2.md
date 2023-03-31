@@ -1,7 +1,37 @@
 ---
 layout: post
-date: 2023-03-30 18:09:00-0400
-inline: true
+title: Tutoring Services now Available!
+date: 2023-03-30 16:11:00-0400
+inline: false
+related_posts: false
 ---
 
-Started offering tutoring services on the side to students and mentees. A range of topics include career coaching, college admissions/essays, and general highschool to junior college level math/programming.
+#### About Me
+
+I am a highly motivated Senior Software Engineer at Optum and am currently a Master's student studying Computer Science at Penn. Previously, I graduated UC Davis with an MBA in 2022 and UC Berkeley for my undergraduate studies as a Regent's Scholar (top 1.5% of incoming class). You can find out more about me on the [homepage](https://bryantduong.github.io/), as this is just a rehash.
+
+#### Subjects
+
+Topics I can tutor and discuss include
+
+* High School Level Math (AP included)
+* Essay Revision/Proofreading
+* Calculus
+* Introductory Level Programming
+* SAT Prep (I was a 98th Percentile Scorer during the 2400 scoring format and received a near perfect score on the Math II SAT Subject Test)
+* College Admissions Counseling (Undergraduate)
+* Career Counseling - Software Engineering
+
+#### Rates
+
+My hourly rates are generally very flexible and range from $20 for lower level topics up to $50 for higher level topics. A free 30 minute session can be arranged to assess my tutoring skills, and to determine if we are a right fit or not!
+
+#### Rules
+* Students are expected to provide material we will discuss at least 2 days prior to our scheduled session. If this is the first session, exceptions can be made.
+* I encourage people to come with the questions they wish to discuss if it is an academic or career-related topic.
+* Being late to a session will count as a no-show and will be discussed with the student.
+* Payment plans can be discussed on a monthly or session by session basis.
+
+#### Contact Information
+
+Please send me an email with your name, number, subject of the inquiry, as well as availability and the best time to contact you, and I will be in touch with you shortly. I can be reached at the following email: [bryantduong.tutoring(aT)gmail.com](mailto:bryantduong.tutoring@gmail.com). **References/Testimonials and CV** can be provided upon request.
