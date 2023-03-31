@@ -18,12 +18,4 @@ Airflow is a platform to schedule, author, and monitor workflows programmaticall
     An Airflow DAG is programmaticaly structured with predecessors and successors that cannot execute until its predecessor is completed. In addition, it can run tasks in parallel using workers.
 </div>
 
-We found the solution using [Zowe](https://www.zowe.org/) which was an open-source mainframe project that could connect to z/OS systems such as Mainframe. In addition, using the ```subprocess``` library in Python3 could run Zowe CLI commands in a script, allowing us to run JCL. An example wrapper that has been released is [PyZowe](https://github.com/zowe/zowe-cli-sample-scripts/tree/master/python/pyzowe).
-
-{% raw %}
-```python
-#sample code
-import os
-# example here, WIP
-```
-{% endraw %}
+We found the solution using [Zowe](https://www.zowe.org/)'s API which was an open-source mainframe project that could connect to z/OS systems such as Mainframe. In addition, using the ```subprocess``` library in Python3 could run Zowe CLI commands in a script, allowing us to run JCL. An example wrapper that has been released is [PyZowe](https://github.com/zowe/zowe-cli-sample-scripts/tree/master/python/pyzowe). Ever since finding out a manageable workflow scheduling solution in 2019, we have been able to execute multiple pipelines and schedules with the assistance of Airflow.
