@@ -30,4 +30,8 @@ However, since these workloads were stored using flat files, we were able to par
     Amundsen allows for easy user management, and gives a high level overview on data ownership, categorization, and column definitions/datatypes.
 </div>
 
+<<<<<<< HEAD
 We found the solution by pitching idea to senior management and finding a client who would be interested in defining the tables and columns necessary. In addition, to having a verbose and rich user interface, Amundsen has many ways to extract data and put it into graph/ElasticSearch indices to consume on the frontend. It allows its developers to deliver small data dictionaries in CSV format to working with SQL databases which contain relational data for all the tables/instance you may want to include. Overall, its a versatile tool to have at any company with Big Data as they expand their Data Science/Processing capabilities.
+=======
+We found the solution by pitching idea to senior management and finding a client who would be interested in defining the tables and columns necessary. In addition, to having a verbose and rich user interface, Amundsen has many ways to extract data and put it into graph/ElasticSearch indices to consume on the frontend. It allows its developers to deliver small data dictionaries in CSV format to working with SQL databases which contain relational data for all the tables/instance you may want to include. Overall, its a versatile tool to have at any company with Big Data as they expand their Data Science/Processing capabilities.
+>>>>>>> 2627b034 (Update with blog post)

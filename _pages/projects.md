@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research and Industry projects that I have worked on/am working on.
+description: Projects that I have worked on previously.
 nav: true
 nav_order: 2
 display_categories: [Research, Industry]
