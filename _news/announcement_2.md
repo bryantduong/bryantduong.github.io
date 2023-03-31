@@ -24,12 +24,14 @@ Topics I can tutor and discuss include
 
 #### Rates
 
-My hourly rates are generally very flexible and range from $20 for lower level topics up to $50 for higher level topics. A free 30 minute session can be arranged to assess my tutoring skills, and to determine if we are a right fit or not!
+My hourly rates are generally very flexible and range from $25 for lower level topics up to $50 for higher level topics.A free 30 minute session can be arranged to assess my tutoring skills, and to determine if I am a right fit or not!
 
 #### Rules
-* Students are expected to provide material we will discuss at least 2 days prior to our scheduled session. If this is the first session, exceptions can be made.
+* **Tutoring is done remotely via Zoom or Google Hangouts.**
+* Sessions can be recorded upon requests for the client to review. This cannot be shared with any outside source or individual as it is for private use by the client.
+* Clients are expected to provide material we will discuss at least 2 days prior to our scheduled session. If this is the first session, exceptions can be made.
 * I encourage people to come with the questions they wish to discuss if it is an academic or career-related topic.
-* Being late to a session will count as a no-show and will be discussed with the student.
+* Being late to a session will count as a no-show and will be discussed with the client.
 * Payment plans can be discussed on a monthly or session by session basis.
 
 #### Contact Information
