@@ -5,6 +5,7 @@ description: Integrating Lyft's Amundsen as a data dictionary for internal Optum
 img: assets/img/amundsen_mark_orange.svg
 importance: 2
 category: Industry
+category: Industry
 giscus_comments: false
 ---
 
