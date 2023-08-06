@@ -4,7 +4,7 @@ title: Airflow at Optum
 description: Integrating a Pythonic open-source workflow management platform for data engineering pipelines.
 img: assets/img/airflow_transparent.png
 importance: 1
-category: work
+category: Industry
 ---
 
 Airflow is a platform to schedule, author, and monitor workflows programmatically via Python 3. It is an open-source project maintained by the [Apache Software Foundation](https://github.com/apache). In Airflow, some of the difficulties we had in translating our existing pipelines were they were embedded into IBM Mainframe JCL and scheduled through the licensed built-in scheduler by IBM, TWSz and TWSD, which stood for Tivoli Workload Scheduler. However, since these workloads were embedded using COBOL and a proprietary scheduler made by IBM, we needed to find a workaround that Airflow DAGs could use to connect to IBM Mainframe servers directly and then access the COBOL/JCL directly via API or remote access.

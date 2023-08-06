@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Projects that I have worked on previously.
+description: Research and Industry projects that I have worked on/am working on.
 nav: true
 nav_order: 2
-display_categories: [Academia, Optum]
+display_categories: [Research, Industry]
 horizontal: false
 ---
 

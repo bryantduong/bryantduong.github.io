@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: Duong_Bryant_Resume.pdf
+cv_pdf: BryantDuong_CV.pdf
 ---

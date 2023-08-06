@@ -4,7 +4,7 @@ title: Amundsen at Optum
 description: Integrating Lyft's Amundsen as a data dictionary for internal Optum Oracle Databases
 img: assets/img/amundsen_mark_orange.svg
 importance: 2
-category: work
+category: Industry
 ---
 
 Amundsen is a platform for open source data discovery and also acts a metadata engine. It is an open-source project maintained by [Lyft](https://eng.lyft.com/amundsen-lyfts-data-discovery-metadata-engine-62d27254fbb9). When adopting Amundsen for Optum, some of the difficulties we had in translating our existing pipelines were unformatted data for our Oracle databases. A lot of the data dictionary that was provided by our third party contractor was stored in an Access Database, which in turn had no easy way to publicly view. 
