@@ -97,7 +97,8 @@ You can find my summer poster, presentation slides, and journal club media [here
 
 # References
 
-* Chen, Q., Du, J., Hu, Y., Keloth V., Peng, X., Raja, K., Zhang, R., Lu, Z., Xu H. (2023). Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations. ArXiv. https://doi.org/10.48550/arXiv.2305.16326
+* Zhao, Z., Jin Q., Chen F., Peng T., Yu S. (2023). PMC-Patients: A Large-scale Dataset of Patient Summaries and Relations for Benchmarking Retrieval-based Clinical Decision Support Systems. ArXiv, abs/2202.13876.
+* Chen, Q., Du, J., Hu, Y., Keloth V., Peng, X., Raja, K., Zhang, R., Lu, Z., Xu H. (2023). Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations. ArXiv, abs/2305.16326.
 * Henry, S., Buchan, K., Filannino, M., Stubbs, A., & Uzuner, O. (2020). 2018 n2c2 shared task on adverse drug events and medication extraction in electronic health records. Journal of the American Medical Informatics Association : JAMIA, 27(1), 3–12. https://doi.org/10.1093/jamia/ocz166
 * Wang, Y., Fu, S., Shen, F., Henry, S., Uzuner, O., & Liu, H. (2020). The 2019 n2c2/OHNLP Track on Clinical Semantic Textual Similarity: Overview. JMIR medical informatics, 8(11), e23375. https://doi.org/10.2196/23375
 * Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. ArXiv, abs/1810.04805.
