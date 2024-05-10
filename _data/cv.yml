@@ -5,13 +5,13 @@
       institution: University of Pennsylvania
       year: 2023 - Present
       description:
-        - GPA: 3.83
+        - GPA - 3.83
     - title: MBA
       institution: University of California, Davis
       year: 2022
       description:
         - MBA focusing in Project Management and Data Analytics
-        - Cumulative GPA - 3.83
+        - GPA - 3.83
 - title: Research Experience
   type: time_table
   contents:
@@ -19,7 +19,7 @@
       institution: Wistar Institute
       year: December 2023 - Present
       description:
-        - title: PI: Noam Auslander
+        - PI - Noam Auslander
     - title: Summer Research Intern
       institution: National Institutes of Health
       year: June - August 2023
