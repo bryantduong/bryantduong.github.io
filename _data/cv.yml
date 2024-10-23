@@ -5,7 +5,7 @@
       institution: University of Pennsylvania
       year: 2023 - Present
       description:
-        - GPA - 3.83
+        - GPA - 3.88
     - title: MBA
       institution: University of California, Davis
       year: 2022
@@ -20,6 +20,11 @@
       year: Dec 2023 - Present
       description:
         - PI - Noam Auslander
+        - title: Research Projects
+          contents:
+            - Developed exploratory KNN and bagging regressor models to associate melanoma mutations with gain of function and loss of function from AlphaMissense structural embeddings.
+            - Plotted survival curves and calculating hazard ratios for ER+ ovarian cancer patients and feature selecting gene signatures using genetic algorithm.
+            - Assisted with analysis on HLA serotypes and sequencing data to provide insight into mechanistic support for protein association using netMHCpan I/II
     - title: Summer Research Intern
       institution: National Institutes of Health
       year: Jun - Aug 2023
