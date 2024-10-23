@@ -1,97 +1,88 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Masters - Computer and Information Technology
+      institution: University of Pennsylvania
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA - 3.88
+    - title: MBA
+      institution: University of California, Davis
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
+        - MBA focusing in Project Management and Data Analytics
+        - GPA - 3.83
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Wistar Institute
+      year: Dec 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - PI - Noam Auslander
+        - title: Research Projects
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Developed exploratory KNN and bagging regressor models to associate melanoma mutations with gain of function and loss of function from AlphaMissense structural embeddings.
+            - Plotted survival curves and calculating hazard ratios for ER+ ovarian cancer patients and feature selecting gene signatures using genetic algorithm.
+            - Assisted with analysis on HLA serotypes and sequencing data to provide insight into mechanistic support for protein association using netMHCpan I/II
+    - title: Summer Research Intern
+      institution: National Institutes of Health
+      year: Jun - Aug 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+        - title: Summer Project
+          contents:
+            - Pretrained and finetuned BERT language model for domain specificity on clinical case notes and biomedical literature to capture patient representation.
+            - Conducted independent quantitative experiments on downstream language model tasks to compare baseline model with domain specific model.
+            - Assisted in implementing data preprocessing methods for various datasets and statistical methodologies for inference in collaboration with preceptor and principal investigator.
+        - title: Career Development
+          contents:
+            - Attended and actively discussed journal club papers to keep up to date with NLP literature.
+            - Attended resilience and presentation practice sessions for personal development.
+- title: Indstry Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Senior/Mid-Level/Associate Software Engineer
+      institution: Optum
+      year: 2019 - Present
+      description:
+        - title: Projects
+          contents:
+            - Worked on an end to end file tracker using Python, React, and MongoDB to help locate and remediate errors for inbound/outbound files.
+            - Maintained production instance of Apache Airflow throughout 2020- 2021 to automate the scheduling of our production
+              and non-production pipelines, consisting of over 80,000 jobs written as Windows batch, Linux shell scripts, and IBM
+              Mainframe JCL.
+        - title: Management and mentorship for development programs and junior engineers.
+          contents:
+            - Led 4 years of summer interns on different projects to create MVPs for internal process improvement.
+            - Interviewed over 25 software engineer candidates for our Technology Development Program.
+            - Mentored and evaluated performance of over 30 junior engineers in total over 4 years on projects with day-to-day correspondence.
+    - title: Metadata Analyst
+      institution: National Security Agency
+      year: 2015-2017
+      description:
+        - Earned Top Secret/Sensitive information security clearance by passing a polygraph while attending school as a full-time employee.
+        - Performed advanced theoretical analysis at a research level, including analysis on a wide variety of raw traffic to query database results effectively.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2015-2018
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Stokes Educational Scholarship
+        - Regent's and Chancellor's Scholarship
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Bioinformatics
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Machine Learning Applications in Bioinformatics
+        - Big Data
+    - title: Human-Computer Interaction
       items:
-        - Description 1.
-        - Description 2.
+        - AI Ethics/Education
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Laser Tag, Reading, Anime, Cloud Computing
