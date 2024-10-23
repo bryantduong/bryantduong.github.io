@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Research and Industry projects that I have worked on/am working on.
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [Research, Industry]
 horizontal: false
 ---
