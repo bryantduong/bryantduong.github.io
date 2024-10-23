@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pfp.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Bryant Duong, a software engineer at [Optum](https://www.optum.com/) and a research assistant in the Auslander Lab at the Wistar Institute. I'm also a Master's student in Computer and Information Technology at the University of Pennsylvania.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I hold an MBA from UC Davis and a BA in Cognitive Science from Berkeley. In summer 2023, I interned at the National Institutes of Health, conducting bioinformatics research in Dr. Zhiyong Lu's lab. Between 2015 and 2017, I was a [Stokes Scholar](https://federaljobs.net/blog/the-stokes-educational-scholarship-program-nsa/) at the National Security Agency.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I'm interested in healthcare and bioinformatics research. Outside of work, I mentor junior engineers and students, and also enjoy reading sci-fi novels and collecting anime cels/sketches.
