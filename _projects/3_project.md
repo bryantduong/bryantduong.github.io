@@ -17,7 +17,7 @@ The problem statement this summer was to investigate whether foundational langua
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/bert.png" title="BERT architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/bert.png" title="BERT architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -38,7 +38,7 @@ Due to time constraints and the exponentially longer training, only MLM was done
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Attention_diagram_transformer.png" title="BERT's Architecture Up Close" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Attention_diagram_transformer.png" title="BERT's Architecture Up Close" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
