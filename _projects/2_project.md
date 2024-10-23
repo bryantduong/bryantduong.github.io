@@ -2,7 +2,7 @@
 layout: page
 title: Amundsen at Optum
 description: Integrating Lyft's Amundsen as a data dictionary for internal Optum Oracle Databases
-img: assets/img/amundsen_mark_orange.png
+img: assets/img/amundsen_mark_orange.svg
 importance: 2
 category: Industry
 giscus_comments: false
