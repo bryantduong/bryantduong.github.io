@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Bryant Duong, a software engineer at [Optum](https://www.optum.com/) and a research assistant in the Auslander Lab at the Wistar Institute. I'm also a Master's student in Computer and Information Technology at the University of Pennsylvania.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I hold an MBA from UC Davis and a BA in Cognitive Science from Berkeley. In summer 2023, I interned at the National Institutes of Health, conducting bioinformatics research in Dr. Zhiyong Lu's lab. Between 2015 and 2017, I was a [Stokes Scholar](https://federaljobs.net/blog/the-stokes-educational-scholarship-program-nsa/) at the National Security Agency.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I'm interested in healthcare and bioinformatics research. Outside of work, I mentor junior engineers and students, and also enjoy reading sci-fi novels and collecting anime cels/sketches.
