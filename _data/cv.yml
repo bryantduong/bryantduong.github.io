@@ -12,6 +12,9 @@
       description:
         - MBA focusing in Project Management and Data Analytics
         - GPA - 3.83
+    - title: Bachelors of Arts - Cognitive Science
+      institution: University of California, Berkeley
+      year: 2018
 - title: Research Experience
   type: time_table
   contents:
@@ -38,7 +41,7 @@
           contents:
             - Attended and actively discussed journal club papers to keep up to date with NLP literature.
             - Attended resilience and presentation practice sessions for personal development.
-- title: Indstry Experience
+- title: Industry Experience
   type: time_table
   contents:
     - title: Senior/Mid-Level/Associate Software Engineer
