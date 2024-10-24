@@ -66,5 +66,5 @@ After summer, I found working in research was more fulfilling due to the complex
 * PhD admissions require some time to be successful (still to be determined for me!) - spend at least 3 months before the deadline gathering application materials and shortlisting schools/recommenders. Most programs have deadlines in December of that year for admission into the following year.
 * You'll perpetually feel like you have no idea what you are doing, but that's because research is open-ended.
 * You really have to convince yourself that you want to pursue research if it ends up being your goal long-term, as the ROI on industry is definitely higher than research. I recommend this [document](https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf) to go down the rabbit hole of motivations behind a PhD.
-* Someone sent me a [story](https://drive.google.com/file/d/15-oQKkuU-CDmzKcK1FT56GuK1V8KCcfG/view?usp=sharing) of someone else's PhD journey th. Its a great story and was in part a factor of motivation for me to pursue research.
+* Someone sent me a [story](https://drive.google.com/file/d/15-oQKkuU-CDmzKcK1FT56GuK1V8KCcfG/view?usp=sharing) of someone else's PhD journey. Its a great story and was in part a factor of motivation for me to pursue research.
 
