@@ -21,4 +21,4 @@ I hold an MBA from UC Davis, a Master's in Computer & Information Technology fro
 
 I've been a software engineer at Optum for 6 years since beginning in 2019. In summer 2023, I interned at the National Institutes of Health, conducting bioinformatics research in Dr. Zhiyong Lu's lab. Between 2015 and 2017, I was a [Stokes Scholar](https://federaljobs.net/blog/the-stokes-educational-scholarship-program-nsa/) at the National Security Agency.
 
-Currently, I'm interested in healthcare and bioinformatics research. Outside of work, I mentor junior engineers and students, and also enjoy reading sci-fi novels and collecting anime cels/sketches.
+Currently, I'm interested in healthcare and bioinformatics research. Outside of work, I mentor junior engineers (80% retention rate at Optum) and students at the high school and undergraduate level. In my spare time, I also enjoy reading sci-fi novels and collecting anime cels/sketches.
