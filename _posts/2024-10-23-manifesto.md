@@ -65,9 +65,14 @@ After summer, I found working in research was more fulfilling due to the complex
 * Advice on [how to read a paper](http://linyun.info/p83-keshavA.pdf).
 * Do not be afraid to present scientific work to your lab or at conferences, even if you sound stupid or can't answer questions. Its a learning process and I still feel the imposter syndrome every day. Even if I freeze up on presenting, its because I'm learning to interpret science and getting used to the format.
 * Not all publications are weighed equally. Some are in more prestigous journals depending on the discipline and "tiered" differently - this can reflect the rigor of the review process and you need to temper your expectations. Some journals have "sub-journals" which have different tiers from their parent journals. Check its impact factor to learn more.
-* Here are my Chrome [bookmarks](https://drive.google.com/file/d/1-gS2JovppZvyC3t-RdWSWA69MbQ4ePiV/view?usp=sharing) you can import that will give you research links I used to find summer and year-round experiences outside of Penn.
-* PhD admissions require some time to be successful (still to be determined for me!) - spend at least 3 months before the deadline gathering application materials and shortlisting schools/recommenders. Most programs have deadlines in December of that year for admission into the following year.
+* Here are my Chrome [bookmarks](https://drive.google.com/file/d/1fmNY5Sucrs5jFOinsfYkBNIU1_kdcu0S/view?usp=sharing) you can import that will give you research links I used to find summer and year-round experiences outside of Penn.
+* PhD admissions require some time to be successful - spend at least 3 months before the deadline gathering application materials and shortlisting schools/recommenders. Most programs have deadlines in December of that year for admission into the following year.
 * You will perpetually feel like you have no idea what you are doing, but that's because research is open-ended.
 * You have to convince yourself that you want to pursue research if it ends up being your goal long-term, as the ROI on industry is definitely higher than research. I recommend this [document](https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf) to go down the rabbit hole of motivations behind a PhD.
 * Someone sent me a [story](https://drive.google.com/file/d/15-oQKkuU-CDmzKcK1FT56GuK1V8KCcfG/view?usp=sharing) of someone else's PhD journey. Its a great story and was in part a factor of motivation for me to pursue research.
 
+## Admissions Essay Links
+
+* [Guide to PhD Apps - Biostats](https://www.khstats.com/blog/phd-apps/)
+* [Annotated SOP example - CS PhD (MIT)](https://eugenielai.github.io/posts/another-annotated-sop.html)
+* [Neuro PhD SOP](https://lucylai.com/blog/gradapps.html)
