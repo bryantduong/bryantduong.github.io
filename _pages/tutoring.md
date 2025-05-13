@@ -17,6 +17,14 @@ As a background, I have been assisting/tutoring students for the past decade and
 
 My students regularly see admissions to the top 25-50 universities and I have helped a number of students gain admissions totop institutions and software engineering jobs such as Penn, UC Irvine, and various start ups. Please see testimonials below.
 
+## Lesson Schedule
+
+Lessons will be scheduled with client with the following rules:
+
+* Same-day cancellations, reschedulings, or no-shows by the student or by their parent/guardian without an excusable exception will incur a fee of 50% of the scheduled session. There is no penalty for cancelling or rescheduling the day before a session or earlier. However, if a student cancels or reschedules too often, we will need to discuss this issue on a case-by-case basis. This policy also applies in reverse. If I have to same day cancel or reschedule, your session is half off.
+* Slight delays in joining the session are okay, but do not make it a recurring event.
+* Notifications for cancellations or reschedulings may be sent via email.
+
 ## Testimonials (References upon request)
 
 "Bryant is incredibly skilled in the academic writing process and crafting compelling Statements of Purpose that highlights your strengths with clarity and impact. His precise attention to detail, helpful feedback and narrative finesse makes him the perfect go-to for SOP writing. Would highly recommend :)"
@@ -30,3 +38,7 @@ My students regularly see admissions to the top 25-50 universities and I have he
 
 "Placeholder, client is currently writing review"
 - RR
+
+## Contact
+
+Please feel free to send an email with the subject of "Prospective Tutoring" to bryanttduong[aT]gmail[dot]com to inquire more about services and pricing.
