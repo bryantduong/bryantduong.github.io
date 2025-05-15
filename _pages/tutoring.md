@@ -33,7 +33,7 @@ Lessons will be scheduled with client with the following rules:
 
 "Bryant has a rare ability to cut through the noise and offer direct, actionable career advice that helped me navigate a PIP, stand out as a software engineer, and ultimately grow in my role with confidence while recently helping me switch to a new company. He’s not only sharp and strategic, especially when it comes to job applications and optimizing transitions, but also calm, logical, and a great listener who knows exactly how to keep you grounded and focused." - AV
 
-"Placeholder, client is currently writing review ASAP" - RR
+"Bryant is able to provide experience-based feedback for those actively working towards a software engineering position with little experience or pursuing graduate-level training for the purpose of better employment opportunities. In a remote-capacity, Bryant is able to advise on the strongest trajectories that look promising for long-term career stability in software engineering. He is always on time to meetings. He is always responsive. He has a great personality and is very easy to work with. Highly recommend!" - RR
 
 ## Contact
 
