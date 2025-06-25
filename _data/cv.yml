@@ -1,17 +1,17 @@
 - title: Education
   type: time_table
   contents:
+    - title: PhD Student in Genomics & Computational Biology
+      institution: University of Pennsylvania
+      year: 2025 - Present
     - title: Masters - Computer and Information Technology
       institution: University of Pennsylvania
-      year: 2023 - Present
-      description:
-        - GPA - 3.88
+      year: 2023 - 2025
     - title: MBA
       institution: University of California, Davis
       year: 2022
       description:
         - MBA focusing in Project Management and Data Analytics
-        - GPA - 3.83
     - title: Bachelors of Arts - Cognitive Science
       institution: University of California, Berkeley
       year: 2018
@@ -25,8 +25,9 @@
         - PI - Noam Auslander
         - title: Research Projects
           contents:
-            - Developed exploratory KNN and bagging regressor models to associate melanoma mutations with gain of function and loss of function from AlphaMissense structural embeddings.
-            - Plotted survival curves and calculating hazard ratios for ER+ ovarian cancer patients and feature selecting gene signatures using genetic algorithm.
+            - Deployed a bioconda package that quantifies Human Endogenous Retrovirus (HERV) short read RNA sequencing expression data and constructs a phylogenetic tree using LCA
+            - Developed exploratory KNN and bagging regressor models to associate melanoma mutations with expression-based gain of function and loss of function from AlphaMissense structural embeddings
+            - Plotted survival curves and calculating hazard ratios for ER+ ovarian cancer patients and feature selecting gene signatures using genetic algorithm
             - Assisted with analysis on HLA serotypes and sequencing data to provide insight into mechanistic support for protein association using netMHCpan I/II
     - title: Summer Research Intern
       institution: National Institutes of Health
@@ -34,13 +35,13 @@
       description:
         - title: Summer Project
           contents:
-            - Pretrained and finetuned BERT language model for domain specificity on clinical case notes and biomedical literature to capture patient representation.
-            - Conducted independent quantitative experiments on downstream language model tasks to compare baseline model with domain specific model.
-            - Assisted in implementing data preprocessing methods for various datasets and statistical methodologies for inference in collaboration with preceptor and principal investigator.
+            - Pretrained and finetuned BERT language model for domain specificity on clinical case notes and biomedical literature to capture patient representation
+            - Conducted independent quantitative experiments on downstream language model tasks to compare baseline model with domain specific model
+            - Assisted in implementing data preprocessing methods for various datasets and statistical methodologies for inference in collaboration with preceptor and principal investigator
         - title: Career Development
           contents:
-            - Attended and actively discussed journal club papers to keep up to date with NLP literature.
-            - Attended resilience and presentation practice sessions for personal development.
+            - Attended and actively discussed journal club papers to keep up to date with NLP literature
+            - Attended resilience and presentation practice sessions for personal development
 - title: Industry Experience
   type: time_table
   contents:
@@ -50,25 +51,28 @@
       description:
         - title: Projects
           contents:
-            - Worked on an end to end file tracker using Python, React, and MongoDB to help locate and remediate errors for inbound/outbound files.
+            - Worked on an end to end file tracker using Python, React, and MongoDB to help locate and remediate errors for inbound/outbound files
             - Maintained production instance of Apache Airflow throughout 2020- 2021 to automate the scheduling of our production
               and non-production pipelines, consisting of over 80,000 jobs written as Windows batch, Linux shell scripts, and IBM
-              Mainframe JCL.
-        - title: Management and mentorship for development programs and junior engineers.
+              Mainframe JCL
+        - title: Management and mentorship for development programs and junior engineers
           contents:
-            - Led 4 years of summer interns on different projects to create MVPs for internal process improvement.
-            - Interviewed over 25 software engineer candidates for our Technology Development Program.
-            - Mentored and evaluated performance of over 30 junior engineers in total over 4 years on projects with day-to-day correspondence.
+            - Led 4 years of summer interns on different projects to create MVPs for internal process improvement
+            - Interviewed over 25 junior software engineer candidates for our new grad trainee program
+            - Mentored and evaluated performance of over 30 junior engineers in total over 4 years on projects with day-to-day correspondence
     - title: Metadata Analyst
       institution: National Security Agency
       year: 2015-2017
       description:
-        - Earned Top Secret/Sensitive information security clearance by passing a polygraph while attending school as a full-time employee.
-        - Performed advanced theoretical analysis at a research level, including analysis on a wide variety of raw traffic to query database results effectively.
+        - Earned Top Secret/Sensitive information security clearance by passing a polygraph while attending school as a full-time employee
+        - Performed advanced theoretical analysis at a research level, including analysis on a wide variety of raw traffic to query database results effectively
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025-Present
+      items:
+        - Fontaine Scholar
     - year: 2015-2018
       items:
         - Stokes Educational Scholarship
