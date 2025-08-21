@@ -9,7 +9,7 @@ nav_order: 4
 
 ## Qualifications
 
-As a PhD student at Penn, I offer tutoring online via meeting software of choice, with a focus on providing the highest level of service. A long term relationship is built on trust and open communication; I respond to most emails/texts within 6 hours.
+As a PhD student at Penn, I offer career and admissions counseling online via meeting software of choice, with a focus on providing the highest level of service. A long term relationship is built on trust and open communication; I respond to most emails/texts within 6 hours.
 
 My students call on me for assistance on career and undergraduate/graduate admissions counsilting. If you are looking for help with admissions application preparation, admission essay prep, or career consulting - please do not hesitate to reach out. 
 
