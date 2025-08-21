@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /tutoring/
-title: tutoring
-description: Admissions consulting and private tutoring services
+permalink: /consulting/
+title: admissions consulting
+description: Admissions and career coaching/consulting
 nav: true
 nav_order: 4
 ---
