@@ -1,39 +1,81 @@
 ---
 layout: page
 permalink: /consulting/
-title: admissions consulting
-description: Admissions and career coaching/consulting
+title: Technical Consulting
+description: Technical Consulting
 nav: true
 nav_order: 4
 ---
 
-## Qualifications
+## From Complex Challenges to Scalable, Elegant Solutions
 
-As a PhD student at Penn, I offer career and admissions counseling online via meeting software of choice, with a focus on providing the highest level of service. A long term relationship is built on trust and open communication; I respond to most emails/texts within 6 hours.
+**Bridging the gap between your business objectives and the technology stack needed to pursue it.**
 
-My students call on me for assistance on career and undergraduate/graduate admissions counsilting. If you are looking for help with admissions application preparation, admission essay prep, or career consulting - please do not hesitate to reach out. 
+---
 
-As a background, I have been assisting/tutoring students for the past decade and scored 99th percentile on undergraduate admissions exams such as the SAT and SAT subject tests. I have tutored/assisted many undergraduate level to graduate level students since 2017. I earned a BA in Cognitive Science at Berkeley with a Regents Scholarship, MBA at University of California - Davis, and Masters in CS at the University of Pennsylvania. I have also commented and revised Personal Statements and admissions applications since 2020 for students applying to STEM graduate and undergraduate programs/universities as well as assisted in selecting a shortlist of schools to apply to.
+### Hello, I'm Bryant Duong
 
-My students regularly see admissions to the top 25 universities. Some examples include Penn, UC Irvine, Meta, and various companies/start ups. Please see testimonials below.
+I'm a technology consultant, architect, and problem-solver with over 7 years of experience looking to help organizations navigate their complex technical challenges. My passion lies in building modular yet efficient systems that drive tangible business results in the backend and data systems.
 
-## Scheduling
+In my various career positions, I've seen firsthand how the right modular code can transform an organization. I’ve also seen the high cost of technical debt, poor architecture, and misaligned strategy. My mission is to provide you with the clarity, strategic guidance, and architecture to ensure the technical solution is not your bottleneck.
 
-Lessons will be scheduled with client with the following rules:
+---
 
-* Same-day cancellations, reschedulings, or no-shows by the student or by their parent/guardian without an excusable exception will incur a fee of 50% of the scheduled session. There is no penalty for cancelling or rescheduling the day before a session or earlier. However, if a student cancels or reschedules too often, we will need to discuss this issue on a case-by-case basis. This policy also applies in reverse. If I have to same day cancel or reschedule, your session is half off.
-* Slight delays in joining the session are okay, but do not make it a recurring event.
-* Notifications for cancellations or reschedulings may be sent via email.
+### My Consulting Philosophy
 
-## Testimonials (References upon request)
+My approach is built on a foundation of partnership, pragmatism, and a relentless focus on your success.
 
-"Bryant is incredibly skilled in the academic writing process and crafting compelling Statements of Purpose that highlights your strengths with clarity and impact. His precise attention to detail, helpful feedback and narrative finesse makes him the perfect go-to for SOP writing. Would highly recommend :)" - AB, Graduate School Admissions (CS)
+* **Partnership over Prescription:** I work *with* you and your team, not just *for* you. I believe in collaborative problem-solving, knowledge transfer, and empowering your team for long-term success long after our engagement ends.
+* **Clarity in Complexity:** I specialize in demystifying complex technical concepts and translating them into clear, actionable strategies. You'll always understand the 'why' behind the 'what'.
 
-"Bryant helped me prepare for job interviews, going step by step and explaining how to talk about my experiences in a relevant way to a software engineering position despite not having any prior internships. He also helped me fix my resume to be more professional. I highly recommend Bryant if you need to find a SWE job out of undergrad." - KL, Software Engineering Career Counsulting
+---
 
-"Bryant has a rare ability to cut through the noise and offer direct, actionable career advice that helped me navigate a PIP, stand out as a software engineer, and ultimately grow in my role with confidence while recently helping me switch to a new company. He’s not only sharp and strategic, especially when it comes to job applications and optimizing transitions, but also calm, logical, and a great listener who knows exactly how to keep you grounded and focused." - AV, Career Consulting (SWE)
+### Services Offered
 
-"Bryant is able to provide experience-based feedback for those actively working towards a software engineering position with little experience or pursuing graduate-level training for the purpose of better employment opportunities. In a remote-capacity, Bryant is able to advise on the strongest trajectories that look promising for long-term career stability in software engineering. He is always on time to meetings. He is always responsive. He has a great personality and is very easy to work with. Highly recommend!" - RR, Graduate School Career Path Consulting (Math)
+I offer a range of consulting services designed to address critical technology needs at every stage of your company's lifecycle.
+
+#### Software & Systems Architecture
+* System Scalability & Performance Audits
+* API Design & Strategy
+
+#### DevOps & Automation
+* CI/CD Pipeline Design and Implementation
+* Infrastructure as Code (IaC) using tools like Terraform & Pulumi
+* Containerization Strategy (Docker, Kubernetes, AWS)
+* Monitoring, Logging, and Alerting Strategy
+
+#### AI & Machine Learning Integration
+* AI Readiness Assessment for your Business
+* Guidance on selecting and integrating Large Language Models (LLMs)
+* MLOps Strategy for deploying and managing models
+* Proof-of-concept and prototype development
+
+---
+
+### Who I Partner With
+
+I have begun my career path as a consultant but have a previous internal track record of success working with a diverse range of clients, each with unique needs. So far, below I have listed the clients I have worked with.
+
+* **Companies:** Bloom Nutrition, Internally acquired companies with UnitedHealth Group
+
+---
+
+### Our Engagement Process
+
+I follow a straightforward process to ensure clarity and success at every step.
+
+1.  **Discovery Call (30 Minutes):** A complimentary, no-obligation call for us to discuss your challenges, goals, and to see if we are a good fit to work together.
+2.  **Strategic Proposal:** If we move forward, I will deliver a detailed proposal outlining the project scope, objectives, deliverables, timeline, and investment.
+3.  **Collaborative Execution:** We will work closely together through regular check-ins and collaborative sessions. I prioritize open communication and transparency throughout the project.
+4.  **Delivery & Empowerment:** Upon completion, I deliver all documentation, code, and final reports to ensure hand off procedures to your team.
+
+---
+
+### Ready to Solve Your Toughest Technical Challenges?
+
+Whether you're starting a new project, navigating technical hurdles, or planning for the future, I can provide the strategic guidance and expertise you need.
+
+Let's talk about how we can work together to build something exceptional.
 
 ## Contact
 
