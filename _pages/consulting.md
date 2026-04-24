@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /consulting/
-title: Technical Consulting
+title: consulting
 description: Technical Consulting
 nav: true
 nav_order: 4
