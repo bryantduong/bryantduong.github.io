@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Bryant Duong, a Genomics & Computational Biology PhD student at Penn advised by Professors [Li Shen](https://www.med.upenn.edu/shenlab/) and [Noam Auslander](https://www.auslanderlab.com/).  
+I am a Genomics & Computational Biology PhD student at Penn advised by Professors [Li Shen](https://www.med.upenn.edu/shenlab/) and [Noam Auslander](https://www.auslanderlab.com/).  
 
 I was previously a Master's research assistant in the Auslander Lab in 2024/2025 and a software engineer for 6.5 years at Optum working on production CI/CD pipelines and EHR/insurance claims databases. In summer 2023, I interned at the National Institutes of Health, conducting bioinformatics research in Dr. Zhiyong Lu's lab. Between 2015 and 2017, I was a [Stokes Scholar](https://federaljobs.net/blog/the-stokes-educational-scholarship-program-nsa/) at the National Security Agency.
 
