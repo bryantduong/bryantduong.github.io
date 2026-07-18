@@ -1,0 +1,268 @@
+/* ============================================================
+   bryantduong.github.io — single-page academic site
+   Layout in the spirit of the classic REAL-lab personal pages,
+   implemented from scratch. Palette: University of Pennsylvania.
+   ============================================================ */
+
+:root {
+  --penn-blue: #011f5b;   /* headings, name */
+  --penn-blue-2: #1d4f9c; /* secondary blue */
+  --penn-red: #990000;    /* links / accent */
+  --penn-red-2: #c23b3b;  /* link hover */
+  --ink: #3d3d3d;         /* body text */
+  --grey: #5a5a5a;        /* muted text */
+  --line: #e4e4e4;        /* dividers */
+  --gold: #b7860b;        /* highlights (awards etc.) */
+  --bg: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Sans 3", "Source Sans Pro", "Segoe UI", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--penn-red);
+  text-decoration: none;
+}
+a:hover { color: var(--penn-red-2); }
+a:focus-visible {
+  outline: 2px solid var(--penn-blue-2);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+b, strong { font-weight: 600; }
+strong { color: var(--gold); }
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.25rem 3rem;
+}
+
+/* ---------- top nav ---------- */
+nav.site-nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  padding: 1.4rem 0 1rem;
+  font-size: 1.05rem;
+}
+nav.site-nav a { color: var(--penn-red); }
+nav.site-nav a.current { color: var(--penn-blue); font-weight: 600; }
+
+/* ---------- section headings ---------- */
+h1.section-title {
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: var(--penn-blue);
+  margin: 2.4rem 0 1rem;
+}
+.divider {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 2.2rem 0 0;
+}
+
+/* ---------- profile ---------- */
+.profile {
+  display: flex;
+  gap: 2.2rem;
+  align-items: flex-start;
+  margin-top: 1.6rem;
+}
+.profile-pic { flex: 0 0 300px; }
+.profile-pic img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+.profile-pic .credit {
+  font-size: 0.85rem;
+  color: var(--grey);
+  margin-top: 0.4rem;
+}
+.profile-intro { flex: 1; }
+.profile-name {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: var(--penn-blue);
+  line-height: 1.15;
+}
+.profile-email {
+  color: var(--grey);
+  margin: 0.15rem 0 1rem;
+}
+.profile-intro p { margin: 0 0 0.9rem; }
+.links-row {
+  margin-top: 1.1rem;
+  font-size: 1.02rem;
+}
+.links-row .sep { color: var(--grey); padding: 0 0.35rem; }
+
+/* ---------- updates ---------- */
+ul.updates {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.updates li {
+  padding: 0.28rem 0;
+}
+ul.updates .date {
+  font-weight: 600;
+  color: var(--penn-blue);
+  margin-right: 0.45rem;
+  white-space: nowrap;
+}
+
+/* ---------- project / research entries ---------- */
+h2.group-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--penn-blue-2);
+  margin: 1.6rem 0 0.6rem;
+}
+.entry {
+  display: flex;
+  gap: 1.4rem;
+  align-items: flex-start;
+  margin: 1.1rem 0 1.6rem;
+}
+.entry-thumb {
+  flex: 0 0 300px;
+}
+.entry-thumb img,
+.entry-thumb video {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  border: 1px solid var(--line);
+}
+.entry-body { flex: 1; }
+.entry-title {
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: var(--penn-blue);
+  display: block;
+  margin-bottom: 0.35rem;
+}
+a.entry-title:hover { color: var(--penn-red-2); }
+.entry-body p { margin: 0.2rem 0; color: var(--ink); }
+.entry-meta { color: var(--grey); font-size: 0.95rem; }
+
+/* ---------- blog listing ---------- */
+.post-list { list-style: none; margin: 0; padding: 0; }
+.post-list li {
+  display: flex;
+  gap: 1.2rem;
+  align-items: baseline;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.post-list .date {
+  flex: 0 0 7.2rem;
+  font-weight: 600;
+  color: var(--penn-blue);
+  white-space: nowrap;
+}
+.post-list .post-link { font-size: 1.08rem; font-weight: 600; }
+.post-list .blurb {
+  display: block;
+  color: var(--grey);
+  font-size: 0.95rem;
+  font-weight: 300;
+  margin-top: 0.15rem;
+}
+
+/* ---------- article / post pages ---------- */
+article.post, article.page {
+  max-width: 760px;
+  margin: 0 auto;
+}
+article .post-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--penn-blue);
+  line-height: 1.2;
+  margin: 1.8rem 0 0.3rem;
+}
+article .post-meta {
+  color: var(--grey);
+  font-size: 0.95rem;
+  margin-bottom: 1.6rem;
+}
+article h2 {
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--penn-blue);
+  margin: 2rem 0 0.6rem;
+}
+article h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--penn-blue-2);
+  margin: 1.4rem 0 0.4rem;
+}
+article p { margin: 0 0 1rem; }
+article ul, article ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+article li { margin: 0.35rem 0; }
+article figure { margin: 1.6rem 0; }
+article figure img {
+  max-width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  display: block;
+}
+article figcaption {
+  font-size: 0.88rem;
+  color: var(--grey);
+  margin-top: 0.45rem;
+}
+.back-link { display: inline-block; margin-top: 1.2rem; font-size: 0.98rem; }
+
+/* ---------- footer ---------- */
+footer.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+  color: var(--grey);
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 760px) {
+  .profile { flex-direction: column; gap: 1.2rem; }
+  .profile-pic { flex-basis: auto; max-width: 320px; }
+  .entry { flex-direction: column; gap: 0.7rem; }
+  .entry-thumb { flex-basis: auto; max-width: 420px; width: 100%; }
+  .post-list li { flex-direction: column; gap: 0.15rem; }
+  .post-list .date { flex-basis: auto; }
+}
+
+/* ---------- inline code ---------- */
+article code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: #f3f3f3;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
