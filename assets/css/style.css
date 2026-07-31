@@ -2,11 +2,14 @@
    bryantduong.github.io — single-page academic site
    Layout in the spirit of the classic REAL-lab personal pages,
    implemented from scratch. Palette: University of Pennsylvania.
+   Light/dark themes via CSS custom properties; the toggle in the
+   nav is injected by /assets/js/theme.js and sets [data-theme].
    ============================================================ */
 
 :root {
-  --penn-blue: #011f5b;   /* headings, name */
-  --penn-blue-2: #1d4f9c; /* secondary blue */
+  --penn-blue: #103a78;   /* headings, name — Penn Blue #011f5b lifted ~9 points
+                             in lightness, same 216deg navy hue (11:1 on white) */
+  --penn-blue-2: #1d4f9c; /* secondary navy for subheads (7.9:1 on white) */
   --penn-red: #990000;    /* links / accent */
   --penn-red-2: #c23b3b;  /* link hover */
   --ink: #3d3d3d;         /* body text */
@@ -14,6 +17,25 @@
   --line: #e4e4e4;        /* dividers */
   --gold: #b7860b;        /* highlights (awards etc.) */
   --bg: #ffffff;
+  --code-bg: #f3f3f3;     /* inline code chips */
+  --toggle-track: #e9edf4;
+  color-scheme: light;
+}
+
+/* ---------- dark theme (Penn palette, night shift) ---------- */
+[data-theme="dark"] {
+  --penn-blue: #a9c4f5;   /* headings flip to light Penn blue */
+  --penn-blue-2: #7fa3e0;
+  --penn-red: #e58a8a;    /* Penn red needs lightening on dark */
+  --penn-red-2: #f2aaa9;
+  --ink: #d3d8e2;
+  --grey: #9aa4b5;
+  --line: #2a3450;
+  --gold: #d5a72e;
+  --bg: #0e1524;          /* near-black navy keeps the Penn identity */
+  --code-bg: #1b2437;
+  --toggle-track: #223050;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -24,6 +46,7 @@ html {
 
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
+  body { transition: background-color 0.25s ease, color 0.25s ease; }
 }
 
 body {
@@ -59,14 +82,66 @@ strong { color: var(--gold); }
 /* ---------- top nav ---------- */
 nav.site-nav {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 0.25rem 1rem;
+  gap: 0.5rem 1rem;
   padding: 1.4rem 0 1rem;
   font-size: 1.05rem;
 }
 nav.site-nav a { color: var(--penn-red); }
 nav.site-nav a.current { color: var(--penn-blue); font-weight: 600; }
+
+/* ---------- dark-mode toggle ----------
+   One canonical control: a 52x26 pill living as the last item in nav.site-nav,
+   with inline SVG sun/moon icons and a sliding knob. Wired by theme.js. */
+.theme-toggle {
+  position: relative;
+  flex: 0 0 auto;
+  width: 52px;
+  height: 26px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--toggle-track);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.theme-toggle svg {
+  width: 13px;
+  height: 13px;
+  display: block;
+  fill: none;
+  stroke: var(--grey);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.theme-toggle .tt-knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+[data-theme="dark"] .theme-toggle .tt-knob { transform: translateX(26px); }
+.theme-toggle::after {           /* invisible 44px-tall hit area for touch */
+  content: "";
+  position: absolute;
+  inset: -9px -6px;
+}
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--penn-blue-2);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .theme-toggle .tt-knob { transition: transform 0.18s ease; }
+}
 
 /* ---------- section headings ---------- */
 h1.section-title {
@@ -168,6 +243,31 @@ a.entry-title:hover { color: var(--penn-red-2); }
 .entry-body p { margin: 0.2rem 0; color: var(--ink); }
 .entry-meta { color: var(--grey); font-size: 0.95rem; }
 
+/* ---------- publications ---------- */
+.pub-authors { font-size: 0.98rem; margin: 0.15rem 0 0.1rem; }
+.pub-authors .me { font-weight: 600; color: var(--penn-blue-2); }
+.pub-venue { font-size: 0.95rem; color: var(--grey); font-style: italic; margin: 0.1rem 0; }
+.pub-links { font-size: 0.95rem; margin-top: 0.35rem; }
+.pub-links .sep { color: var(--grey); padding: 0 0.3rem; }
+.pub-note {
+  font-size: 0.92rem;
+  color: var(--grey);
+  border-left: 2px solid var(--line);
+  border-radius: 0;
+  padding: 0.1rem 0 0.1rem 0.8rem;
+  margin: 0.4rem 0 1.4rem;
+}
+
+ul.poster-list { list-style: none; margin: 0.6rem 0 0; padding: 0; }
+ul.poster-list li {
+  font-size: 0.98rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+ul.poster-list li:last-child { border-bottom: 0; }
+ul.poster-list b { color: var(--penn-blue); font-weight: 600; }
+ul.poster-list .pub-venue { display: inline; }
+
 /* ---------- blog listing ---------- */
 .post-list { list-style: none; margin: 0; padding: 0; }
 .post-list li {
@@ -238,6 +338,15 @@ article figcaption {
 }
 .back-link { display: inline-block; margin-top: 1.2rem; font-size: 0.98rem; }
 
+/* ---------- inline code ---------- */
+article code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: var(--code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
 /* ---------- footer ---------- */
 footer.site-footer {
   margin-top: 3rem;
@@ -248,21 +357,18 @@ footer.site-footer {
   text-align: center;
 }
 
+/* soften bright screenshots/photos on the dark background */
+[data-theme="dark"] article figure img,
+[data-theme="dark"] .profile-pic img,
+[data-theme="dark"] .entry-thumb img { filter: brightness(0.88); }
+
 /* ---------- responsive ---------- */
 @media (max-width: 760px) {
+  nav.site-nav { font-size: 0.98rem; gap: 0.35rem 0.7rem; justify-content: center; }
   .profile { flex-direction: column; gap: 1.2rem; }
   .profile-pic { flex-basis: auto; max-width: 320px; }
   .entry { flex-direction: column; gap: 0.7rem; }
   .entry-thumb { flex-basis: auto; max-width: 420px; width: 100%; }
   .post-list li { flex-direction: column; gap: 0.15rem; }
   .post-list .date { flex-basis: auto; }
-}
-
-/* ---------- inline code ---------- */
-article code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.88em;
-  background: #f3f3f3;
-  padding: 0.1em 0.35em;
-  border-radius: 4px;
 }
