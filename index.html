@@ -5,193 +5,164 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="Bryant Duong" />
   <meta name="description" content="Bryant Duong — Genomics &amp; Computational Biology PhD student at Penn." />
+  <link rel="canonical" href="https://bryantduong.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bryantduong.github.io/" />
+  <meta property="og:title" content="Bryant Duong" />
+  <meta property="og:description" content="Bryant Duong — Genomics &amp; Computational Biology PhD student at Penn." />
+  <meta property="og:image" content="https://bryantduong.github.io/assets/img/pfp.jpg" />
+  <meta name="twitter:card" content="summary" />
   <title>Bryant Duong</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="/assets/fonts/source-sans-3-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/source-serif-4-600-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/assets/css/style.css" />
   <script src="/assets/js/theme.js"></script>
 </head>
 
-<body id="top">
-  <div class="wrap">
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <nav class="site-nav" aria-label="Main">
-      <a href="/#profile-intro" class="current">Home</a>
-      <a href="/#updates">Updates</a>
-      <a href="/#publications">Publications</a>
-      <a href="/blog/">Blog</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="/" aria-current="page">Bryant Duong</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/#about">About</a>
+        <a href="/#updates">Updates</a>
+        <a href="/#publications">Publications</a>
+        <a href="/blog/">Blog</a>
+      </nav>
       <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Dark mode">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" /><path d="M12 1.5v2M12 20.5v2M1.5 12h2M20.5 12h2M4.6 4.6L6 6M18 18l1.4 1.4M19.4 4.6L18 6M6 18l-1.4 1.4" /></svg>
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" /></svg>
         <span class="tt-knob" aria-hidden="true"></span>
       </button>
-    </nav>
+    </div>
+  </header>
 
-    <!-- ================= profile ================= -->
-    <section class="profile" id="profile-intro">
-      <div class="profile-pic">
-        <img src="/assets/img/pfp.png" alt="Portrait of Bryant Duong" />
-      </div>
-      <div class="profile-intro">
-        <div class="profile-name">Bryant Duong</div>
-        <div class="profile-email">bryanttduong at gmail dot com</div>
+  <main id="main">
+    <section class="hero full-bleed" id="about" aria-labelledby="profile-name">
+      <div class="hero-inner">
+        <img class="portrait" src="/assets/img/pfp.jpg" alt="Portrait of Bryant Duong" width="800" height="1200" fetchpriority="high" />
+        <div class="hero-head">
+          <h1 class="profile-name" id="profile-name">Bryant Duong</h1>
+          <p class="profile-role">PhD student, Genomics &amp; Computational Biology<br />University of Pennsylvania</p>
+          <p class="profile-email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
+            bryanttduong at gmail dot com
+          </p>
+        </div>
+        <div class="hero-body">
+          <p>
+            I am a Genomics &amp; Computational Biology PhD student at Penn advised by Professors
+            <a href="https://www.med.upenn.edu/shenlab/">Li Shen</a> and
+            <a href="https://www.auslanderlab.com/">Noam Auslander</a>.
+          </p>
+          <p>
+            I was previously a Master&rsquo;s research assistant in the Auslander Lab in 2024/2025 and a
+            software engineer for 6.5 years at Optum working on production CI/CD pipelines and
+            EHR/insurance claims databases. In summer 2023, I interned at the National Institutes of
+            Health, conducting bioinformatics research in Dr. Zhiyong Lu&rsquo;s lab. Between 2015 and 2017,
+            I was a <a href="https://federaljobs.net/blog/the-stokes-educational-scholarship-program-nsa/">Stokes Scholar</a>
+            at the National Security Agency.
+          </p>
+          <p>
+            I received a Master&rsquo;s in Computer &amp; Information Technology from Penn, an MBA from
+            UC Davis, and a BA in Cognitive Science from Berkeley. Outside of work, I mentor junior
+            engineers and college students looking to make a career transition into tech/academia,
+            and I collect anime production cels.
+          </p>
 
-        <p>
-          I am a Genomics &amp; Computational Biology PhD student at Penn advised by Professors
-          <a href="https://www.med.upenn.edu/shenlab/">Li Shen</a> and
-          <a href="https://www.auslanderlab.com/">Noam Auslander</a>.
-        </p>
-        <p>
-          I was previously a Master&rsquo;s research assistant in the Auslander Lab in 2024/2025 and a
-          software engineer for 6.5 years at Optum working on production CI/CD pipelines and
-          EHR/insurance claims databases. In summer 2023, I interned at the National Institutes of
-          Health, conducting bioinformatics research in Dr. Zhiyong Lu&rsquo;s lab. Between 2015 and 2017,
-          I was a <a href="https://federaljobs.net/blog/the-stokes-educational-scholarship-program-nsa/">Stokes Scholar</a>
-          at the National Security Agency.
-        </p>
-        <p>
-          I received a Master&rsquo;s in Computer &amp; Information Technology from Penn, an MBA from
-          UC Davis, and a BA in Cognitive Science from Berkeley. Outside of work, I mentor junior
-          engineers and college students looking to make a career transition into tech/academia,
-          and I collect anime production cels.
-        </p>
-
-        <div class="links-row">
-          <a href="/assets/cv.pdf">CV</a><span class="sep">/</span>
-          <a href="https://orcid.org/0009-0001-3235-7210">ORCID</a><span class="sep">/</span>
-          <a href="https://scholar.google.com/citations?user=Uk29CPQAAAAJ">Google Scholar</a><span class="sep">/</span>
-          <a href="https://github.com/bryantduong">Github</a><span class="sep">/</span>
-          <a href="https://www.linkedin.com/in/bryantduong">LinkedIn</a>
+          <ul class="profile-links">
+            <li><a class="btn btn-primary" href="/assets/cv.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" /><path d="M14 3v5h5M9 13h6M9 17h6" /></svg>CV</a></li>
+            <li><a class="btn" href="https://orcid.org/0009-0001-3235-7210">ORCID<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg></a></li>
+            <li><a class="btn" href="https://scholar.google.com/citations?user=Uk29CPQAAAAJ">Google Scholar<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg></a></li>
+            <li><a class="btn" href="https://github.com/bryantduong">GitHub<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg></a></li>
+            <li><a class="btn" href="https://www.linkedin.com/in/bryantduong">LinkedIn<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg></a></li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <hr class="divider" />
+    <section class="home-section" id="updates" aria-labelledby="updates-title">
+      <div class="rail"><h2 class="section-title" id="updates-title">Updates</h2></div>
+      <div class="content">
+        <ul class="updates">
+          <!-- Add new items at the top. -->
+          <li><time datetime="2026-07">Jul 2026</time> Chose my PhD thesis advisors!</li>
+          <li><time datetime="2023-03">Mar 2023</time> Start of personal website.</li>
+        </ul>
+      </div>
+    </section>
 
-    <!-- ================= updates ================= -->
-    <section id="updates">
-      <h1 class="section-title">Updates</h1>
-      <ul class="updates">
-        <li><span class="date">Jul 2026</span>Chose my PhD thesis advisors!</li>
-        <li><span class="date">Mar 2023</span> Start of personal website.</li>
-        <!-- Add new items at the top, e.g.:
-        <li><span class="date">Sep 2026</span> Something exciting happened! <a href="#">Link</a></li>
-        -->
+    <section class="home-section" id="publications" aria-labelledby="publications-title">
+      <div class="rail">
+        <h2 class="section-title" id="publications-title">Publications</h2>
+        <p class="rail-note"><sup>*</sup> and <sup>#</sup> denote equal contribution.</p>
+        <p class="rail-note"><a href="https://scholar.google.com/citations?user=Uk29CPQAAAAJ">Google Scholar profile</a></p>
+      </div>
+      <div class="content">
+        <h3 class="group-title">Published</h3>
+        <ol class="pubs">
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.1186/s13059-026-04287-5">ERVmancer: a phylogeny-guided framework for decoding human endogenous retrovirus regulatory mechanisms in health and disease</a>
+            <p class="pub-authors">Patterson A, <b class="me">Duong B</b>, Yoon L, Foster M, MacMullen L, Wickramasinghe J, Lucas A, Srivastava A, Jacobson S, Murphy ME, Soldan SS, Lieberman PM, Auslander N</p>
+            <p class="pub-venue"><cite>Genome Biology</cite>, 2026</p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.1016/j.celrep.2026.117455">Melanoma-patient-derived xenograft multi-omics resource melPDomiX maps gain- and loss-of-function alterations</a>
+            <p class="pub-authors">Tsingas K<sup>*</sup>, Thomas M<sup>*</sup>, Reale M<sup>*</sup>, Xiao M<sup>*</sup>, Wickramasinghe J, Chen Y, <b class="me">Duong B</b>, Lucas A, Thacker G, Li H, &hellip;<span class="visually-hidden"> 30 more authors</span>, Auslander N<sup>#</sup>, Herlyn M<sup>#</sup></p>
+            <p class="pub-venue"><cite>Cell Reports</cite> 45(6):117455, 2026</p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.1101/gad.352953.125">Mutant p53 binds and controls estrogen receptor activity to drive endocrine resistance in ovarian cancer</a>
+            <p class="pub-authors">Shao C, Indeglia A, Foster M, Casey K, Leung J, Modarai SR, Leu JIJ, <b class="me">Duong B</b>, Mes-Masson AM, Sims-Mourtada J, Auslander N, Drapkin R, Bitler BG, Zhang N, Murphy ME</p>
+            <p class="pub-venue"><cite>Genes &amp; Development</cite> 40(3&ndash;4):199&ndash;214, 2026</p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.1001/jamanetworkopen.2025.17204">AI Workflow, External Validation, and Development in Eye Disease Diagnosis</a>
+            <p class="pub-authors">Chen Q, Keenan TDL, Agron E, Allot A, Guan E, <b class="me">Duong B</b>, Elsawy A, Hou B, Xue C, Bhandari S, &hellip;<span class="visually-hidden"> 27 more authors</span>, Chiang MF, Lu Z</p>
+            <p class="pub-venue"><cite>JAMA Network Open</cite> 8(7):e2517204, 2025</p>
+          </li>
+        </ol>
+        <h3 class="group-title">Preprints and papers in review</h3>
+        <ol class="pubs">
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.64898/2026.10.13.756865">X-SPEAR: An Extensible Framework for Spatial Panel Evaluation and Refinement</a>
+            <p class="pub-authors">Patel R, <b class="me">Duong B</b>, Patel V, Maurer J, Rice G, Cheng Y</p>
+            <p class="pub-venue"><cite>bioRxiv</cite> preprint, Oct 2026</p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.64898/2026.06.23.26356337">Spatial Transcriptomics Recontextualizes the Cellular Environment of Conjunctival Melanoma</a>
+            <p class="pub-authors">Maurer J<sup>*</sup>, Suzuki-Horiuchi Y<sup>*</sup>, <b class="me">Duong B</b>, Ramirez MV, Chen A, Prouty SM, Milman T, Lee V, Cheng Y</p>
+            <p class="pub-venue"><cite>medRxiv</cite> preprint, Jun 2026. Submitted to <cite>Ocular Oncology and Pathology</cite>.</p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.1101/2025.11.06.686285">Taxonomy-free fecal microbiome profiles enable robust prediction of immunotherapy response and toxicity in melanoma</a>
+            <p class="pub-authors">Lucas A, Reale M, Wolf YI, <b class="me">Duong B</b>, Zhang Y, Wickramasinghe J, Behlman L, Jones SM, Higgins S, Moustafa AM, Elbasir A, Amaravadi R, Mitchell T, Huang A, Auslander N</p>
+            <p class="pub-venue"><cite>bioRxiv</cite> preprint, Nov 2025. In review at <cite>Genome Medicine</cite>.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="footer-id">
+        <a class="footer-name" href="/">Bryant Duong</a>
+        <p>PhD student in Genomics &amp; Computational Biology at the University of Pennsylvania.</p>
+      </div>
+      <ul class="footer-links" aria-label="Elsewhere">
+        <li><a href="/assets/cv.pdf">CV</a></li>
+        <li><a href="https://orcid.org/0009-0001-3235-7210">ORCID</a></li>
+        <li><a href="https://scholar.google.com/citations?user=Uk29CPQAAAAJ">Google Scholar</a></li>
+        <li><a href="https://github.com/bryantduong">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/bryantduong">LinkedIn</a></li>
+        <li><a href="https://substack.com/@bryantduong">Substack</a></li>
       </ul>
-    </section>
-
-    <hr class="divider" />
-
-    <!-- ================= publications =================
-         Layout follows the Huy Ha / Cheng Chi convention: teaser figure on the
-         left; title, authors, venue and links on the right.
-
-         Thumbnails are placeholders at /assets/img/pub1..6.png — drop in each
-         paper's real teaser figure at roughly 600x338 (any 16:9 works). A
-         looping clip works too, in place of the <img>:
-           <video autoplay loop muted playsinline>
-             <source src="/assets/img/teaser.mp4" type="video/mp4" />
-           </video>
-
-         Titles are plain <span> where I had no DOI to point at. To link one,
-         swap the span for an anchor and keep the class:
-           <a class="entry-title" href="https://doi.org/...">Title</a>
-    -->
-    <section id="publications">
-      <h1 class="section-title">Publications</h1>
-      <p class="pub-note">* and # denote equal contribution.</p>
-
-      <h2 class="group-title">Published</h2>
-
-      <div class="entry">
-        <div class="entry-thumb">
-          <img src="/assets/img/pub1.png" alt="Teaser figure placeholder for the melPDomiX paper" />
-        </div>
-        <div class="entry-body">
-          <span class="entry-title">melPDomiX: A Multi-Omics Melanoma PDX Resource Uncovers Gain- and Loss-of-Function Programs</span>
-          <p class="pub-authors">Tsingas K*, Thomas M*, Reale M*, Xiao M*, Wickramasinghe J, Chen Y, <span class="me">Duong B</span>, Lucas A, Thacker G, Li H, Mou H, Ramirez-Salazar E, Elbasir A, Villanueva J, Xu X, &hellip;, Auslander N#, Herlyn M#</p>
-          <p class="pub-venue">Cell Reports, 2026;45(6)</p>
-          <p class="pub-links">
-            <a href="https://www.cell.com/cell-reports/fulltext/S2211-1247(26)00533-4">paper</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="entry-thumb">
-          <img src="/assets/img/pub2.png" alt="Teaser figure placeholder for the mutant p53 paper" />
-        </div>
-        <div class="entry-body">
-          <span class="entry-title">Mutant p53 binds and controls estrogen receptor activity to drive endocrine resistance in ovarian cancer</span>
-          <p class="pub-authors">Shao C, Indeglia A, Leung J, Modarai SR, Leu IJ J, <span class="me">Duong B</span>, Mes-Masson AM, Sims-Mourtada J, Auslander N, Drapkin R, Murphy ME</p>
-          <p class="pub-venue">Genes &amp; Development, April 2025</p>
-          <p class="pub-links">
-            <a href="https://genesdev.cshlp.org/content/40/3-4/199.full">paper</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="entry-thumb">
-          <img src="/assets/img/pub3.png" alt="Teaser figure placeholder for the eye disease diagnosis paper" />
-        </div>
-        <div class="entry-body">
-          <span class="entry-title">AI Workflow, External Validation, and Development in Eye Disease Diagnosis</span>
-          <p class="pub-authors">Chen Q, Keenan TD, Agron E, Allot A, Guan E, <span class="me">Duong B</span>, Elsawy A, Hou B, Xue C, Bhandari S, &hellip;, Chew EY, Hribar MR, Chiang MF, Lu Z</p>
-          <p class="pub-venue">JAMA Network Open, 2025;8(7):e2517204</p>
-          <p class="pub-links">
-            <a href="https://doi.org/10.1001/jamanetworkopen.2025.17204">paper</a>
-          </p>
-        </div>
-      </div>
-
-      <h2 class="group-title">Preprints and papers in review</h2>
-
-      <div class="entry">
-        <div class="entry-thumb">
-          <img src="/assets/img/pub4.png" alt="Teaser figure placeholder for the conjunctival melanoma preprint" />
-        </div>
-        <div class="entry-body">
-          <span class="entry-title">Spatial Transcriptomics Recontextualizes the Cellular Environment of Conjunctival Melanoma</span>
-          <p class="pub-authors">Maurer J*, Suzuki-Horiuchi Y*, <span class="me">Duong B</span>, Ramirez MV, Chen A, Prouty SM, Milman T, Lee V, Cheng Y</p>
-          <p class="pub-venue">Preprint, June 2026 &mdash; submitted to Ocular Oncology &amp; Pathology</p>
-          <p class="pub-links">
-            <a href="https://www.medrxiv.org/content/10.64898/2026.06.23.26356337v1.full.pdf">preprint</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="entry-thumb">
-          <img src="/assets/img/pub5.png" alt="Teaser figure placeholder for the fecal microbiome preprint" />
-        </div>
-        <div class="entry-body">
-          <span class="entry-title">Taxonomy-free fecal microbiome profiles predict immunotherapy response and toxicity in melanoma</span>
-          <p class="pub-authors">Lucas A, Reale M, Wolf YI, <span class="me">Duong B</span>, Zhang Y, Wickramasinghe J, Behlman L, Jones SM, Higgins S, Moustafa AM, Elbasir A, Amaravadi R, Mitchell T, Huang A, Auslander N</p>
-          <p class="pub-venue">Preprint, May 2026 &mdash; in review at Genome Medicine</p>
-          <p class="pub-links">
-            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12637426/">preprint</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="entry-thumb">
-          <img src="/assets/img/pub6.png" alt="Teaser figure placeholder for the ERVmancer preprint" />
-        </div>
-        <div class="entry-body">
-          <span class="entry-title">ERVmancer: A phylogenetic approach to quantification of human endogenous retrovirus expression</span>
-          <p class="pub-authors">Patterson A, <span class="me">Duong B</span>, Yoon L, Foster M, MacMullen L, Wickramasinghe J, Lucas A, Srivastava A, Jacobson S, Murphy ME, Soldan S, Lieberman P, Auslander N</p>
-          <p class="pub-venue">Preprint &mdash; in review at Genome Biology</p>
-          <p class="pub-links">
-            <a href="https://doi.org/10.64898/2026.05.19.726217">preprint</a>
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <footer class="site-footer">&copy; 2026 Bryant Duong.</footer>
-  </div>
+      <p class="footer-copy">&copy; 2026 Bryant Duong</p>
+    </div>
+  </footer>
 </body>
 </html>

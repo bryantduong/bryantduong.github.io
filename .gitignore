@@ -1,0 +1,17 @@
+# VS Code & Cursor
+.vscode/
+.cursor/
+*.code-workspace
+
+# Claude Code (Local & Temporary)
+.claude/settings.local.json
+.claude/worktrees/
+CLAUDE.local.md
+
+# Common OS & Temp Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+.env
